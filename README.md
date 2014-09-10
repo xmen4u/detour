@@ -31,6 +31,10 @@ check out https://www.lyft.com/style for me, i haven't actually used it, but sti
 
 there is a build version under "public" [auto grunt taskGruntfile.js] which does some tasks for optimization
 
+
+responsive - mobile size
 ![](https://raw.githubusercontent.com/xmen4u/detour/master/img1.png)
 ![](https://raw.githubusercontent.com/xmen4u/detour/master/img2.png)
+
+desktop size:
 ![](https://raw.githubusercontent.com/xmen4u/detour/master/img3.png)
