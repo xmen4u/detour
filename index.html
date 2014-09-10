@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Detour - Lyft</title>
+        <meta name="description" content="Calculate the detour distance between two different rides. Given four latitude / longitude pairs, where driver one is traveling from point A to point B and driver two is traveling from point C to point D, write a function (in your language of choice) to calculate the shorter of the detour distances the drivers would need to take to pick-up and drop-off the other driver.">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!--<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">!-->
+        <!--<script src="js/vendor/modernizr-2.6.2.min.js"></script>!-->
+        <meta content="Detour - Lyft" property="og:description">
+        <meta content="Wordoholic" property="og:title">
+        <meta content="website" property="og:type">
+
+        <!-- Bootstrap core CSS -->
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+       <div class="fixed">
+          <a href="http://www.facebook.com/giltamari" target="_blank">
+            <img src="http://graph.facebook.com/giltamari/picture?type=square" class="profile-link">
+          </a>
+        </div>
+        <div id="map-canvas"/></div>
+
+        <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+          <div class="container">
+            <img src="lyft.png" alt="lyft" class="pull-left"><span class="pull-left">San Francisco</span>
+            <button class="btn btn-lyft btn-sm pull-right">reset</button>
+          </div>
+        </nav>
+        <nav class="navbar lyft navbar-default navbar-fixed-bottom" role="navigation">
+          <div class="container">
+            <span id="msg-1">Driver 1: choose the origin</span>
+            <span id="msg-2" class="hide">Driver 1: choose the target</span>
+            <span id="msg-3" class="hide">Driver 2: choose the origin</span>
+            <span id="msg-4" class="hide">Driver 2: choose the target</span>
+            <span id="msg-5" class="hide">calculating..</span>
+            <span id="msg-result" class="hide">..</span>
+          </div>
+        </nav>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=<Enter API KEY>">
+    </script>
+        <script src="js/main.js"></script>
+
+
+       
+    </body>
+</html>
