@@ -47,7 +47,7 @@ Route.prototype = {
 	earthRadiusInKM: 6367.5, // earth radius 
 
 	/************************************************************************
-	*   name:  isCarouselAreaHidden
+	*   name:  distanceInKM
 	*   desc:  Using Haversine distance , the earth, being a "punched" ellipsoid
 	*	and not flat, needs a different distance measure. Haversine is an approximation
 	*	to a sphere. Google maps uses mercator projection, so it fitts.
