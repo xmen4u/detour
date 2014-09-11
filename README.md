@@ -10,6 +10,7 @@ for a real-world solution, you'd require a graph (streets graph) and it'll depen
 
 
 Used technologies: html5, css3, jquery, grunt.js, bower.js, google maps v3 api
+using haversine metric, could have used manhattan distance as well for that matter :)
 
 
 it requires a Google maps api v3 API key [main.js]
